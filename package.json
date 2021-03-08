@@ -1,0 +1,23 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "This is a small project where I build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields. It use live inline validation to inform the user whether a field is properly filled in or not. The form doesn't actually submit, but it displays an error message if the buttom is pushed with any active errors or unfilled required fields. If all is well and the form is \"submitted\", it displays a high five.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea-enrica/form-validation.git"
+  },
+  "author": "Andrea-Enrica Iordache",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrea-enrica/form-validation/issues"
+  },
+  "homepage": "https://github.com/andrea-enrica/form-validation#readme",
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
+}
