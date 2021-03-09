@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <header>
+        <h2>Form Validation</h2>
+        <!-- <button class="open-form">Open Form</button> -->
+    </header>
+    <div id="popUpForm">
+        <form class="form">
+            <div class ="div-form">
+                <label for="Email"><strong>Email<abbr title="This field is mandatory" aria-label="required">*</abbr></strong></label> 
+                <input type="email" placeholder="Enter your email adress" id="email" required/>
+                <br><br>
+
+                <label for="Country"><strong>Country<abbr title="This field is mandatory" aria-label="required">*</abbr></strong></label>
+                <input type="country" placeholder="Enter your country" id="country" required autocomplete="country-name"/>
+                <br><br>
+
+                <label for="ZipCode"><strong>Zip Code<abbr title="This field is mandatory" aria-label="required">*</abbr></strong></label>
+                <input type="text" placeholder="Enter zip code" id="zip" min="2" required/>
+                <br><br>
+
+                <label for="Password"><strong>Password<abbr title="This field is mandatory" aria-label="required">*</abbr></strong></label>
+                <input type="password" placeholder="Enter password" id="password" required minlength="8" maxlength="16"/>
+                <br><br>
+
+                <label for="PasswordConfirmation"><strong>Password Confirmation<abbr title="This field is mandatory" aria-label="required">*</abbr></strong></label>
+                <input type="password" placeholder="Enter password" id="password-confirmation" min="8" max="16" required/>
+                <br><br>
+            </div>
+            <div class="formButtons">
+                <!-- <button type="button" class="cancel">Cancel</button> -->
+                <button type="button" class="clear">Clear fields</button>
+                <button type="button" class="confirm">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src='main.js'></script>
+</html>
