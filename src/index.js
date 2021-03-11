@@ -175,8 +175,8 @@ var addData = (() => {
             formStorage.push(formData);
             
             clearForm();
-            console.warn('added', {formStorage});
             localStorage.setItem('MyFormData', JSON.stringify(formStorage)); 
+            
         } else {
             showEmailErrors();
             showCountryErrors();
