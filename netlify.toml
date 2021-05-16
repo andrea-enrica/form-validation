@@ -1,5 +1,0 @@
-command = "CI= npm run build"
- [context]
-
-   [context.development]
-   publish = "dist"
